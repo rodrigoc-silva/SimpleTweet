@@ -38,7 +38,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         // Get the data at position
         Tweet tweet = tweets.get(position);
-        // Bind the tewwt with view holder
+        // Bind the tweet with view holder
         holder.bind(tweet);
     }
 
